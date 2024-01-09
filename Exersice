@@ -1,0 +1,9 @@
+Exersice:
+Part 1: Object Class with hashCode and equals
+Create a class Car with private fields make (String) and model (String).
+Override the hashCode() and equals() methods in the Car class to ensure proper comparison based on the make and model fields.
+Part 2: Object Cloning
+Implement the Cloneable interface in the Car class.
+Implement the clone() method in the Car class. Ensure a deep copy of the object is created.
+In the main method of a test class, create an instance of Car and clone it using the clone() method. Verify that the original object and the cloned object are independent of each other
+import java.util.Objects;
